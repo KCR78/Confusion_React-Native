@@ -18,7 +18,6 @@ onDishSelect(dishId) {
 }
 
   render() {
- 
     return (
         <View>
             <Menu dishes={this.state.dishes} onPress={(dishId) => this.onDishSelect(dishId)} />

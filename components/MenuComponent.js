@@ -1,11 +1,9 @@
 import React from 'react';
-import { View, FlatList } from 'react-native';
+import { FlatList } from 'react-native';
 import { ListItem } from 'react-native-elements';
 
 function Menu(props) {
-
     const renderMenuItem = ({item, index}) => {
-
         return (
             <ListItem
                 key={index}
@@ -26,6 +24,5 @@ function Menu(props) {
                 />
     );
 }
-
 
 export default Menu;
